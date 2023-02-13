@@ -127,7 +127,7 @@ p::first-letter {
 article {
   flex: 80%;
   background: url(src/article-background.jpg);
-  border-radius: 10%;
+  border-radius: 50px;
   margin: 0 10px;
   padding: 20px 80px 20px 80px;
   text-align: justify;
@@ -239,46 +239,56 @@ article {
 #armiaKids {
   background: round url(/main/src/armia-kids.jpg);
   background-size: contain;
+  flex: 1;
 }
 #armiaLadies {
   background: round url(/main/src/armia-ladies.jpg);
   background-size: contain;
+  flex: 1;
 }
 #armiaBJJ {
   background: round url(/main/src/armia-bjj.jpg);
   background-size: contain;
+  flex: 1;
 }
 #armiaBeginner {
   background: round url(/main/src/armia-beginner.jpg);
   background-size: contain;
+  flex: 1;
 }
 #armiaSemipro {
   background: round url(/main/src/armia-semipro.jpg);
   background-size: contain;
+  flex: 1;
 }
 #armiaPro {
   background: round url(/main/src/armia-pro.jpg);
   background-size: contain;
+  flex: 1;
 }
 #armiaOpen {
   background: round url(/main/src/armia-open.jpg);
   background-size: contain;
+  flex: 1;
 }
 #armiaMMA {
   background: round url(/main/src/armia-mma.jpg);
   background-size: contain;
+  flex: 1;
 }
 #armiaBoxing {
   background: round url(/main/src/armia-boxing.jpg);
   background-size: contain;
+  flex: 1;
 }
 #armia30 {
   background: round url(/main/src/armia-30+.jpg);
   background-size: contain;
+  flex: 1;
 }
 
 .offerThumbnail {
-  width: 45%;
+  min-width: 400px;
   height: 300px;
   margin: 20px;
   border-radius: 10%;
