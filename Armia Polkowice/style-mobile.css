@@ -1,36 +1,79 @@
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 839px) {
+  body {
+    font-size: 0.7em;
+  }
+  #headerContainer {
+    flex-wrap: nowrap;
+  }
+  #headerContainer:nth-child(1) {
+    justify-content: flex-start;
+  }
 
-    body {
-       
-        font-size: 0.7em;
-        
-      }
-      header ul {
-        margin-left: 0px;
-      }
-      header li {
-        margin-left: 0px;
-      }
-     .headerContact {
-        font-size: 10px;
-     }
-     #headerContainer img {
-        width: 100%;
-     }
-     nav {
-        font-size: 8px;
-     }
-     #mainContent {
-        display: flex;
-        margin: 0;
-        padding-left: 0;
-      }
-      aside {
-        flex: 100%;
-        text-align: center;
-        color: white;
-      }
-      article {
-        padding: 0;
-      }
-    }
+  header ul {
+    margin-left: 0px;
+  }
+  header li {
+    margin-left: 0px;
+  }
+  .headerContact {
+    font-size: 10px;
+  }
+  #headerContainer img {
+    width: 100%;
+  }
+  nav {
+    font-size: 8px;
+  }
+  nav li {
+    display: column;
+    margin-left: 10px;
+  }
+  #mainContent {
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0;
+  }
+  #newsHeader {
+    margin-bottom: 15px;
+  }
+  aside {
+    flex: 100%;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+  }
+  aside li {
+    padding-bottom: 10px;
+    font-size: 10px;
+    display: flexbox;
+  }
+  .fa {
+    padding: 5px;
+    font-size: 10px;
+    width: 40px;
+  }
+  article {
+    padding: 0;
+    flex-direction: column;
+  }
+  .articlesThumbnail {
+    min-width: 200px;
+    height: 200px;
+
+    margin: 5px;
+    font-size: 15px;
+  }
+  .articlesThumbnail:hover {
+    box-shadow: inset 0 30px 0 0 black;
+  }
+  p {
+    text-indent: 7px;
+  }
+  footer {
+    font-size: 8px;
+  }
+  .load-more {
+    padding: 5px;
+    height: 35px;
+  }
+}
