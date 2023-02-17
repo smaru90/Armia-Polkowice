@@ -1,0 +1,134 @@
+@media only screen and (max-width: 839px) {
+  body {
+    font-size: 0.7em;
+  }
+  .toggle-button {
+    display: flex;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links li {
+    text-align: center;
+  }
+  .navbar-links li a {
+    padding: 0.5rem 1rem;
+  }
+  .navbar-links.active {
+    display: flex;
+  }
+
+  #mainContent {
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0;
+  }
+  #newsHeader {
+    margin-bottom: 15px;
+  }
+  aside {
+    flex: 100%;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+  }
+  aside li {
+    padding-bottom: 10px;
+    font-size: 10px;
+    display: flexbox;
+  }
+  .fa {
+    padding: 5px;
+    font-size: 10px;
+    width: 40px;
+  }
+  article {
+    padding: 8px;
+    flex-direction: column;
+  }
+  .articlesThumbnail {
+    min-width: 200px;
+    height: 200px;
+
+    margin: 5px;
+    font-size: 15px;
+  }
+  .articlesThumbnail:hover {
+    box-shadow: inset 0 30px 0 0 black;
+  }
+  p {
+    text-indent: 7px;
+  }
+  footer {
+    font-size: 8px;
+  }
+  .load-more {
+    padding: 5px;
+    height: 35px;
+  }
+  .contactContainer {
+    flex-direction: column;
+    justify-content: center;  
+    
+  }
+  fieldset {
+   width: 100%;
+   margin-right: 5px;
+  }
+  textarea {
+    width: 80%;
+  }
+  #localizationContainer {
+   flex-direction: column;   
+    
+    }
+    #localizationPolkowice {
+      margin: 5px;
+    }
+    #localizationLubin {
+      margin: 5px;
+    }
+  .maps {
+    width: 100%;
+    
+    
+  }
+
+  .offerThumbnail {
+    min-width: 200px;
+    height: 150px;
+  }
+  #offerContainer .offerThumbnail span {   
+    margin: 0 10px ;
+    text-align: start;
+    font-size: 0.8em;
+   
+  }
+  #offerContainer .offerThumbnail span ul {   
+    text-indent: -5px;
+    margin-left: -30px;
+    
+  }
+  .aboutUsStyle img {
+    width: 90%;
+  }
+  .coachContainer {
+    flex-direction: column;
+  }
+  #mainContent h2 {
+    text-align: center;
+  }
+  .scheduleContainer img {
+    max-width: 100%;
+   
+  }
+}

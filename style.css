@@ -1,0 +1,417 @@
+body {
+  background-image: linear-gradient(black, darkgreen, black);
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+/* header style */
+#headerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+ 
+}
+#headerContainer:nth-child(1) {
+  align-items: center;
+  justify-content: space-around;
+}
+
+header ul {
+  margin-left: 30px;
+}
+header li {
+  display: inline-block;
+  margin-left: 20px;
+}
+header li:hover {
+  transition: 0.4s;
+  text-decoration: underline;
+  cursor: pointer;
+  color: green;
+  opacity: 0.7;
+}
+/* end of header style */
+
+/* navigation toolbar style*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+#logo {
+ width: 100px;
+  
+}
+#logo img {
+  width: 300px;
+}
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex; 
+}
+.navbar-links li {
+  list-style: none;
+}
+.navbar-links li {
+  padding: 1rem;
+  display: block;
+}
+.navbar-links li:hover {
+  transition: 0.4s;
+  text-decoration: underline;
+  cursor: pointer;
+  color: green;
+ 
+}
+/* end of navigation toolbar style*/
+
+/* main content style*/
+#mainContent {
+  display: flex;
+  margin: 80px 30px 10px 30px;
+  padding-left: 10%;
+}
+/* end of main content style*/
+
+/* footer style*/
+footer {
+ 
+  color: white;
+  padding: 20px;
+  text-align: right;
+  font-size: large;
+}
+/* end of footer style */
+
+/* social media style */
+aside {
+  flex: 20%;
+  text-align: center;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10%;
+}
+
+.fa:hover {
+  transition: 0.4s;
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-instagram {
+  background-image: url(src/insta-background.jpg);
+  color: white;
+}
+aside ul {
+  margin-top: 20px;
+  list-style-type: none;
+}
+aside li {
+  padding-bottom: 30px;
+}
+aside li:hover:not(:first-child) {
+  transition: 0.4s;
+  color: green;
+}
+/* end of social media style */
+
+/* news style on the homepage */
+#newsHeader {
+  text-align: center;
+  margin-bottom: 50px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+p {
+  text-indent: 30px;
+}
+p::first-letter {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+article {
+  flex: 80%;
+  background: url(src/article-background.jpg);
+  border-radius: 50px;
+  margin: 0 10px;
+  padding: 20px 80px 20px 80px;
+  text-align: justify;
+}
+#articlesContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#sparringJawor {
+  background: round url(src/sparring-jawor.jpg);
+  background-size: contain;
+  flex: 1;
+}
+#armiaFight3 {
+  background: round url(src/armia-fight3.jpg);
+  background-size: contain;
+  flex: 1;
+}
+#newYear2023 {
+  background: round url(src/new-year2023.jpg);
+  background-size: contain;
+  flex: 1;
+}
+#MFG5announcment {
+  background: round url(src/mfg5.jpg);
+  background-size: contain;
+  flex: 1;
+}
+#MFG5fightcard {
+  background: round url(src/mfg5-fightcard.jpg);
+  background-size: contain;
+  flex: 1;
+}
+#demoTraining {
+  background: round url(src/demo-training.jpg);
+  background-size: contain;
+  flex: 1;
+}
+
+.articlesThumbnail {
+  min-width: 400px;
+  height: 300px;
+  margin: 20px 15px;
+  border-radius: 10%;
+  font-size: 30px;
+  color: transparent;
+  display: flex;
+  justify-content: center;
+}
+.articlesThumbnail:hover {
+  transition: 0.4s;
+  cursor: pointer;
+  box-shadow: inset 0 50px 0 0 black;
+  color: green;
+  
+  opacity: 0.9;
+}
+.load-more {
+  display: block;
+  margin: auto;
+  height: 50px;
+  padding: 0 50px;
+  border: 0;
+  border-radius: 6px;
+  background-color: green;
+  color: #f1f1f1;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.load-more:hover {
+  transition: 0.4s;
+  opacity: 0.8;
+  background-color: black;
+  color: green;
+  font-weight: bold;
+}
+
+#articlesContainer .articlesThumbnail span {
+  justify-content: center;
+  align-items: center;
+}
+/* end of news style on the homepage */
+
+/* about us style */
+.coachContainer {
+  display: flex;
+}
+
+.aboutUsStyle img {
+  margin: 0px 60px 20px 10px;
+}
+
+.aboutUsStyle h3 {
+  text-align: center;
+  margin-top: 50px;
+}
+.aboutUsStyle ul {
+  padding: 0;
+  list-style-position: inside;
+}
+/* end of about us style */
+
+/*offer style */
+#offerContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+#armiaKids {
+  background: round url(/main/src/armia-kids.jpg);
+  background-size: contain;
+  flex: 1;
+}
+#armiaLadies {
+  background: round url(/main/src/armia-ladies.jpg);
+  background-size: contain;
+  flex: 1;
+}
+#armiaBJJ {
+  background: round url(/main/src/armia-bjj.jpg);
+  background-size: contain;
+  flex: 1;
+}
+#armiaBeginner {
+  background: round url(/main/src/armia-beginner.jpg);
+  background-size: contain;
+  flex: 1;
+}
+#armiaSemipro {
+  background: round url(/main/src/armia-semipro.jpg);
+  background-size: contain;
+  flex: 1;
+}
+#armiaPro {
+  background: round url(/main/src/armia-pro.jpg);
+  background-size: contain;
+  flex: 1;
+}
+#armiaOpen {
+  background: round url(/main/src/armia-open.jpg);
+  background-size: contain;
+  flex: 1;
+}
+#armiaMMA {
+  background: round url(/main/src/armia-mma.jpg);
+  background-size: contain;
+  flex: 1;
+}
+#armiaBoxing {
+  background: round url(/main/src/armia-boxing.jpg);
+  background-size: contain;
+  flex: 1;
+}
+#armia30 {
+  background: round url(/main/src/armia-30+.jpg);
+  background-size: contain;
+  flex: 1;
+}
+
+.offerThumbnail {
+  min-width: 400px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 10%;
+  color: transparent;
+  display: flex;
+  justify-content: center;
+}
+.offerThumbnail:hover {
+  transition: 0.4s;
+  cursor: pointer;
+  box-shadow: inset 0 300px 0 0 white;
+  color: black;
+  opacity: 0.9;
+  border: green;
+}
+#offerContainer .offerThumbnail span {
+  text-align: center;
+  font-size: 1em;
+  margin: 10px 10px 0 0;
+}
+/* end of offer style*/
+
+/*schedule style*/
+.scheduleContainer {
+  text-align: center;
+}
+.scheduleContainer img {
+  max-width: 80%;
+  border-radius: 5%;
+}
+/* end of schedule style*/
+
+/*contact form style*/
+.contactContainer {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+#contactForm {
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#contactPhone {
+  flex: 1;
+}
+
+#contactPhone li {
+  font-size: 1.2em;
+  line-height: 1.8em;
+  margin-left: 20px;
+}
+
+#contactPhone li:hover {
+  transition: 0.4s;
+  text-decoration: underline;
+  cursor: pointer;
+  color: green;
+  opacity: 0.7;
+  font-weight: bold;
+}
+fieldset {
+  border-radius: 10%;
+  border: solid green;
+  
+}
+form {
+  display: table;
+}
+form p {
+  display: table-row;
+}
+input {
+  border: solid green;
+  font-size: 1em;
+  display: table-cell;     
+}
+label {
+  display: table-cell;
+}
+textarea {
+  font-size: 1.2em;
+}
+#localizationContainer {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+ 
+  
+  }
+#localizationPolkowice {
+  flex: 1;  
+  
+ 
+}
+#localizationLubin {
+  flex: 1;  
+ 
+
+}
+.maps {
+  width: 400px;
+  height: 400px;  
+  
+}
+/*end of contact form style*/
