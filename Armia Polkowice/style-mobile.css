@@ -26,6 +26,9 @@
   .navbar-links.active {
     display: flex;
   }
+  .logo img {
+    width: 200px;
+  }
 
   #mainContent {
     flex-direction: column;
@@ -41,11 +44,21 @@
     color: white;
     font-size: 10px;
   }
-  aside li {
-    padding-bottom: 10px;
-    font-size: 10px;
-    display: flexbox;
+  aside li:first-child {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
+  aside li {
+    display: block;
+    font-size: 10px;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+  }
+
   .fa {
     padding: 5px;
     font-size: 10px;
@@ -77,46 +90,40 @@
   }
   .contactContainer {
     flex-direction: column;
-    justify-content: center;  
-    
+    justify-content: center;
   }
   fieldset {
-   width: 100%;
-   margin-right: 5px;
+    width: 100%;
+    margin-right: 5px;
   }
   textarea {
     width: 80%;
   }
   #localizationContainer {
-   flex-direction: column;   
-    
-    }
-    #localizationPolkowice {
-      margin: 5px;
-    }
-    #localizationLubin {
-      margin: 5px;
-    }
+    flex-direction: column;
+  }
+  #localizationPolkowice {
+    margin: 5px;
+  }
+  #localizationLubin {
+    margin: 5px;
+  }
   .maps {
     width: 100%;
-    
-    
   }
 
   .offerThumbnail {
     min-width: 200px;
     height: 150px;
   }
-  #offerContainer .offerThumbnail span {   
-    margin: 0 10px ;
+  #offerContainer .offerThumbnail span {
+    margin: 0 10px;
     text-align: start;
     font-size: 0.8em;
-   
   }
-  #offerContainer .offerThumbnail span ul {   
+  #offerContainer .offerThumbnail span ul {
     text-indent: -5px;
     margin-left: -30px;
-    
   }
   .aboutUsStyle img {
     width: 90%;
@@ -129,6 +136,9 @@
   }
   .scheduleContainer img {
     max-width: 100%;
-   
+  }
+  #mfg5fightcardText ul {
+    display: block;
+    margin-left: -30px;
   }
 }

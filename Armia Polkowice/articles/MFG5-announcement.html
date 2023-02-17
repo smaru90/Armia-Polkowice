@@ -13,44 +13,35 @@
     <link rel="stylesheet" media="screen and (min-width: 840px) and (max-width: 1919px)" href="../style-laptop.css">
     <link rel="stylesheet" media="screen and (min-width: 0px) and (max-width: 839px)" href="../style-mobile.css">
     <link rel="stylesheet" href="articles.css" />
-    <script src="jquery-3.6.3.js"></script>
+    <script src="../jquery-3.6.3.js"></script>
   </head>
   <body>
-    <header> <!-- Top of page with logo and contact -->
-    <div id="headerContainer">    
-      <div>
-        <h3><ul class="headerContact">
-            <li>
-              <span>&#9993;</span> NAPISZ DO NAS <br /><a href="mailto:armiapolkowice@gmail.com">
-              armiapolkowice@gmail.com</a>
-            </li>
-            <li>
-              <span>&#9742;</span> ZADZWOŃ <br /><a href="tel:886-576-238"> +48 886 576 238</a> 
-            </li>
-        </ul></h3>
-      </div>
-      <div>
+    <header>
+      <nav class="navbar" id="topNavbar"> <!-- Header logo -->
+        <div class="logo">
           <img
             src="../src/Logo-Green.jpg"
             id="logoGreen"
-            alt="Zielone logo Armii Polkowice"
-            width="300px"
+            alt="Zielone logo Armii Polkowice"            
           />
-      </div>        
-    </div>
-  </header>
-      <nav class="navbar"> <!-- Navigation Toolbar -->
-        <h2>
-          <ul>
+      </div> 
+      <a href="#" class="toggle-button"><!-- Toggle button for navigation in mobile view -->
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>        
+      </a>
+      <div class="navbar-links"><!-- Navigation Toolbar -->
+           <ul>
             <li><a href="../index.html">STRONA GŁÓWNA</a></li>
             <li><a href="../main/first-training.html">PIERWSZY TRENING</a></li>
             <li><a href="../main/offer.html">OFERTA</a></li>
             <li><a href="../main/about-us.html">O KLUBIE</a></li>
             <li><a href="../main/schedule.html">GRAFIK</a></li>
             <li><a href="../main/contact.html">KONTAKT</a></li>
-          </ul>
-        </h2>
-      </nav>
+          </ul>        
+      </div>
+      </nav>  
+    </header>
       <div id="mainContent"> <!-- Main content of the website with articles and social media -->
         <article>
           <div id="newsHeader"><h1> Zapowiedź MFG 5</h1></div>
@@ -114,4 +105,5 @@
       </footer>
     </div>
   </body>
+  <script src="../main.js"></script>
 </html>
