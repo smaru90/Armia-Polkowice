@@ -8,15 +8,16 @@
    rel="stylesheet"
    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
  />   
-    <title>Armia Polkowice</title>
+    <title>Armia Polkowice</title>   
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" media="screen and (min-width: 840px) and (max-width: 1919px)" href="style-laptop.css">
     <link rel="stylesheet" media="screen and (min-width: 0px) and (max-width: 839px)" href="style-mobile.css">
     <script src="jquery-3.6.3.js"></script>
-    <script src="main.js"></script>
+    
+    
   </head>
   <body>
-    <header> <!-- Top of page with logo and contact -->
+    <!--<header> <!-- Top of page with logo and contact 
     <div id="headerContainer">    
       <div>
         <h3><ul class="headerContact">
@@ -38,19 +39,34 @@
           />
       </div>        
     </div>
-  </header>
-      <nav class="navbar"> <!-- Navigation Toolbar -->
-        <h2>
-          <ul>
+  </header> -->
+      <nav class="navbar" id="topNavbar"> <!-- Navigation Toolbar -->
+        <div id="logo">
+          <img
+            src="src/Logo-Green.jpg"
+            id="logoGreen"
+            alt="Zielone logo Armii Polkowice"            
+          />
+      </div> 
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+           <ul>
             <li><a href="index.html">STRONA GŁÓWNA</a></li>
             <li><a href="main/first-training.html">PIERWSZY TRENING</a></li>
             <li><a href="main/offer.html">OFERTA</a></li>
             <li><a href="main/about-us.html">O KLUBIE</a></li>
             <li><a href="main/schedule.html">GRAFIK</a></li>
             <li><a href="main/contact.html">KONTAKT</a></li>
-          </ul>
-        </h2>
-      </nav>
+          </ul>        
+      </div>
+      </nav>      
       <div id="mainContent"> <!-- Main content of the website with articles and social media -->
         <article>
           <div id="newsHeader"><h1>WYDARZENIA</h1></div>
@@ -74,8 +90,7 @@
             </div>
           </div>
           <button id="loadMore" class="load-more">Wczytaj więcej</button>    
-          <script>
-          </script>    
+              
         </article>
         <aside>
           <h3>
@@ -118,5 +133,6 @@
         zastrzeżone.
       </footer>
     </div>
-  </body>
+    <script src="main.js"></script>
+  </body> 
 </html>

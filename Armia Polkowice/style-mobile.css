@@ -2,32 +2,31 @@
   body {
     font-size: 0.7em;
   }
-  #headerContainer {
-    flex-wrap: nowrap;
+  .toggle-button {
+    display: flex;
   }
-  #headerContainer:nth-child(1) {
-    justify-content: flex-start;
-  }
-
-  header ul {
-    margin-left: 0px;
-  }
-  header li {
-    margin-left: 0px;
-  }
-  .headerContact {
-    font-size: 10px;
-  }
-  #headerContainer img {
+  .navbar-links {
+    display: none;
     width: 100%;
   }
-  nav {
-    font-size: 8px;
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  nav li {
-    display: column;
-    margin-left: 10px;
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
   }
+  .navbar-links li {
+    text-align: center;
+  }
+  .navbar-links li a {
+    padding: 0.5rem 1rem;
+  }
+  .navbar-links.active {
+    display: flex;
+  }
+
   #mainContent {
     flex-direction: column;
     margin: 0;
@@ -53,7 +52,7 @@
     width: 40px;
   }
   article {
-    padding: 0;
+    padding: 8px;
     flex-direction: column;
   }
   .articlesThumbnail {
@@ -75,5 +74,61 @@
   .load-more {
     padding: 5px;
     height: 35px;
+  }
+  .contactContainer {
+    flex-direction: column;
+    justify-content: center;  
+    
+  }
+  fieldset {
+   width: 100%;
+   margin-right: 5px;
+  }
+  textarea {
+    width: 80%;
+  }
+  #localizationContainer {
+   flex-direction: column;   
+    
+    }
+    #localizationPolkowice {
+      margin: 5px;
+    }
+    #localizationLubin {
+      margin: 5px;
+    }
+  .maps {
+    width: 100%;
+    
+    
+  }
+
+  .offerThumbnail {
+    min-width: 200px;
+    height: 150px;
+  }
+  #offerContainer .offerThumbnail span {   
+    margin: 0 10px ;
+    text-align: start;
+    font-size: 0.8em;
+   
+  }
+  #offerContainer .offerThumbnail span ul {   
+    text-indent: -5px;
+    margin-left: -30px;
+    
+  }
+  .aboutUsStyle img {
+    width: 90%;
+  }
+  .coachContainer {
+    flex-direction: column;
+  }
+  #mainContent h2 {
+    text-align: center;
+  }
+  .scheduleContainer img {
+    max-width: 100%;
+   
   }
 }
