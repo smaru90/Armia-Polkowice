@@ -51,19 +51,19 @@
         </p>
           <div class="contactContainer">
         <div id="contactForm">
-            <form action="index.html" method="post">
+            <form action="mailto:blaszczykm90@gmail.com" method="post" enctype="multipart/form-data" name="EmailForm">
                 <fieldset>
                     <legend>Skontaktuj się z nami</legend>
                     <form>
                       <p>
-                    <label for="email"> E-mail: </label><input type="email" name="email" id="email" required><br>
+                    <label for="email"> E-mail: </label><input type="email" name="Contact-email" id="email" required><br>
                   </p>
                   <p>
-                    <label for="name>"> Imię: </label><input type="text" name="name" id="name" required><br><br>
+                    <label for="name>"> Imię: </label><input type="text" name="Contact-Name" id="name" required><br><br>
                   </p>
                   </form>
-                    <textarea name="emailContent" id="emailContent" cols="40" rows="10" placeholder="Jak możemy Ci pomóc?" required></textarea><br>
-                    <input id="sendButton" type="submit" class="load-more" value="Wyślij" onclick="alert()">
+                    <textarea name="Contact-Message" id="emailContent" cols="40" rows="10" placeholder="Jak możemy Ci pomóc?" required></textarea><br>
+                    <input id="sendButton" type="submit" class="load-more" value="Wyślij">
                 </fieldset>
             </form>
         </div>
