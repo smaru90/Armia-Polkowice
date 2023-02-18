@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Armia Polkowice</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" media="screen and (min-width: 840px) and (max-width: 1919px)" href="../style-laptop.css">
+    <link rel="stylesheet" media="screen and (min-width: 0px) and (max-width: 839px)" href="../style-mobile.css">
+    <script src="../jquery-3.6.3.js"></script>
+   
+    
+  </head>
+  <body>
+    <header>
+      <nav class="navbar" id="topNavbar"> <!-- Header logo -->
+        <div class="logo">
+          <img
+            src="../src/Logo-Green.jpg"
+            id="logoGreen"
+            alt="Zielone logo Armii Polkowice"            
+          />
+      </div> 
+      <a href="#" class="toggle-button"><!-- Navigation Toolbar -->
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>        
+      </a>
+      <div class="navbar-links">
+           <ul>
+            <li><a href="../index.html">STRONA GŁÓWNA</a></li>
+            <li><a href="../main/first-training.html">PIERWSZY TRENING</a></li>
+            <li><a href="../main/offer.html">OFERTA</a></li>
+            <li><a href="../main/about-us.html">O KLUBIE</a></li>
+            <li><a href="../main/schedule.html">GRAFIK</a></li>
+            <li><a href="../main/contact.html">KONTAKT</a></li>
+          </ul>        
+      </div>
+      </nav>  
+    </header>
+      <div id="mainContent"> <!-- Main content of the website with articles and social media -->
+        <article>
+          <div id="newsHeader"><h1>KONTAKT</h1></div>
+          <p>
+          Można się z nami skontaktować poprzez poniższy formularz kontaktowy, lub telefonicznie z każdym z trenerów.
+        </p>
+          <div class="contactContainer">
+        <div id="contactForm">
+            <form id="contact-form" name="EmailForm">
+                <fieldset>
+                    <legend>Skontaktuj się z nami</legend>
+                    <form>
+                      <input type="hidden" name="contact_number">
+                      <p>
+                    <label for="email"> E-mail: </label><input type="email" name="user_email" id="email" required><br>
+                  </p>
+                  <p>
+                    <label for="name>"> Imię: </label><input type="text" name="user_name" id="name" required><br><br>
+                  </p>
+                  </form>
+                    <textarea name="message" id="emailContent" cols="40" rows="10" placeholder="Jak możemy Ci pomóc?" required></textarea><br>
+                    <input id="sendButton" type="submit" class="load-more" value="Wyślij">
+                </fieldset>
+            </form>
+        </div>
+        <div id="contactPhone">            
+            <ul>
+                <li><span>&#9742;</span><a href="tel:886-576-238"> Bartek Muszyński +48 886 576 238</a> </li>
+                <li><span>&#9742;</span><a href="tel:887 263 857"> Kacper Muszyński +48 887 263 857</a> </li>
+                <li><span>&#9742;</span><a href="tel:667 832 218"> Ewa Kauch +48 667 832 218</a> </li>
+                <li><span>&#9742;</span><a href="tel:692 620 841"> Marek Węgierski +48 692 620 841</a> </li>
+                <li><span>&#9742;</span><a href="tel:726 609 504"> Kasia Muszyńska +48 726 609 504</a> </li>
+                <li><span>&#9742;</span><a href="tel:607 363 720"> Mateusz Felkel +48 607 363 720</a> </li>
+            </ul>        
+        </div>
+        </div>
+        <p>Najłatwiej nas jednak znależć w naszych klubach.</p>
+        <div id="localizationContainer">
+            <div id="localizationPolkowice">Armia Polkowice<br>ul. Arnikowa 4<br>
+              <div><iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5445105375843!2d16.059304615924958!3d51.50322561882916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470f5ddc7d108b5d%3A0xfce9f280c6b0b481!2sArnikowa%204%2C%2059-100%20Polkowice!5e0!3m2!1spl!2spl!4v1676026502431!5m2!1spl!2spl" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+             </div>
+            
+            <div id="localizationLubin">Armia Lubin<br>ul. Sportowa 9  
+              <div><iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.828018343476!2d16.2091340159218!3d51.3878388272588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470f6f715771b2d3%3A0x94966bdcf70e0a14!2sSportowa%209%2C%2059-300%20Lubin!5e0!3m2!1spl!2spl!4v1676026388740!5m2!1spl!2spl"  style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  </div>                        
+                <br></div>
+
+        </div>
+           
+        <button onclick="window.location.href='#top'" title="Go to top" class="load-more">Powrót</button>   
+        </article>
+        <aside>
+          <h3>
+            <ul>
+              <li>NASZE SOCIAL MEDIA <br /></li>
+              <li>
+                ARMIA POLKOWICE<br /><a
+                  href="https://www.facebook.com/armiapolkowice"
+                  target="_blank"
+                  class="fa fa-facebook"
+                ></a>
+              </li>
+              <li>
+                ARMIA LUBIN<br /><a
+                  href="https://www.facebook.com/armialubin"
+                  target="_blank"
+                  class="fa fa-facebook"
+                ></a>
+              </li>
+              <li>
+                ARMIA BJJ<br /><a
+                  href="https://www.facebook.com/armiajiujitsusuad"
+                  target="_blank"
+                  class="fa fa-facebook"
+                ></a>
+              </li>
+              <li>
+                ARMIA POLKOWICE<br /><a
+                  href="https://www.instagram.com/armia_polkowice/"
+                  target="_blank"
+                  class="fa fa-instagram"
+                ></a>
+              </li>
+            </ul>
+          </h3>
+        </aside>
+      </div>
+      <footer>
+        Copyright by Klub Sportowy Armia Polkowice 2023. Wszystkie prawa
+        zastrzeżone.
+      </footer>
+      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+     
+    </div>
+  </body>
+  <script src="../main.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init('service_wlklgre', 'Yk3-y7SA7gk3MmdtB');
+    })();
+</script>
+</html>
