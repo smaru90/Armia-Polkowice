@@ -12,6 +12,10 @@
     list-style-type: none
     
 }
+#mfg5fightcardText li {     
+    line-height: 150%;
+    
+}
 #mfg5fightcardText li::before {
     content: "\1F94A\00A0\00A0";    
 }
