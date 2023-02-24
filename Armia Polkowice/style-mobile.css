@@ -118,6 +118,9 @@
     text-align: start;
     font-size: 0.8em;
   }
+  #armiaYounger {    
+    flex: 1;
+  }
   #offerContainer .offerThumbnail span ul {
    
     margin-left: -30px;

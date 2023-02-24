@@ -292,6 +292,11 @@ article {
   background-size: contain;
   flex: 1;
 }
+#armiaYounger {
+  background: round url(/main/src/armia-younger.jpg);
+  background-size: contain;
+  flex: 0.5;
+}
 
 .offerThumbnail {
   min-width: 400px;
